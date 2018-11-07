@@ -1,0 +1,32 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "单元测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js",
+    "mocha": "mocha test/mocha.js",
+    "cover": "nyc mocha test/mocha.js"
+  },
+  "keywords": [],
+  "author": "sunshine-dxc",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunshine-dxc/testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunshine-dxc/testing/issues"
+  },
+  "homepage": "https://github.com/sunshine-dxc/testing#readme"
+}
